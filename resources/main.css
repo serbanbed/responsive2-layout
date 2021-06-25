@@ -10,7 +10,7 @@ html,body{
 }
 
 .row {
-    height: 350px;
+    height: 450px;
     width: 100%;
 }
 
@@ -121,6 +121,8 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+
 .middle {
     background-image: url(/assets/bedroom-2.jpg);
     background-position: center;
@@ -132,6 +134,14 @@ h1 {
     background-blend-mode: overlay;
 }
 
+.middle :first-child{
+    width: 130px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .right {
     background-image: url(/assets/hotel.jpg);
     background-position: center;
@@ -141,6 +151,14 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+}
+
+.right :first-child{
+    width: 130px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .row.nr3 {
@@ -158,6 +176,14 @@ h1 {
     background-blend-mode: overlay;
 }
 
+.paris :first-child{
+    width: 130px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .chicago {
     background-image: url(/assets/library.jpg);
     background-position: center;
@@ -167,6 +193,14 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+}
+
+.chicago :first-child{
+    width: 130px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .bucharest {
@@ -180,7 +214,20 @@ h1 {
     background-blend-mode: overlay;
 }
 
+.bucharest :first-child{
+    width: 130px;
+    color: white;
+    font-weight: lighter;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
+
+.firstbutton {
+    border-radius: 50%;
+    display: block;
+
+}
 
 
 
