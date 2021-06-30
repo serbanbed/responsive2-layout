@@ -111,16 +111,30 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .left :first-child {
+    position:absolute;
     width: 100px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+
+.left :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
 
 
 .middle {
@@ -132,14 +146,28 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .middle :first-child{
+    position:absolute;
     width: 130px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.middle :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .right {
@@ -151,14 +179,28 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .right :first-child{
+    position:absolute;
     width: 130px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.right :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .row.nr3 {
@@ -174,14 +216,28 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .paris :first-child{
+    position:absolute;
     width: 130px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.paris :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .chicago {
@@ -193,14 +249,28 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .chicago :first-child{
+    position:absolute;
     width: 130px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.chicago :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
 }
 
 .bucharest {
@@ -212,26 +282,70 @@ h1 {
     height: 100%;
     background-color: rgb(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    position: relative;
 }
 
 .bucharest :first-child{
+    position:absolute;
     width: 130px;
     color: white;
     font-weight: lighter;
     text-align: center;
+    left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.bucharest :last-child{
+    color: white;
+    font-weight: lighter;
+    left: -5%;
+    bottom: 42px;
+    position: absolute;
+    transform: rotate(270deg);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+}
+
+.row.nr4 {
+    position: relative;
+    text-align: center;
+}
 
 .firstbutton {
-    border-radius: 50%;
-    display: block;
+    padding: 5%;
 
+}
+
+button {
+    border-radius: 20%;
+    background-color: #3d3d3d;
+    width: 140px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+
+}
+
+.bottomtext{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 30px;
+      letter-spacing: 10px;
+      text-transform: uppercase;
+      color: white;
+      margin-bottom: 5%;
+}
+
+.bottomtext :last-child {
+    color:#c09c78;
 }
 
 
 
-
-/* div.row.nr2 div {
-    width: 33%;
-} */
+.formwrapper{
+    display: flex;
+}
