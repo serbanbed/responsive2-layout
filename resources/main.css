@@ -10,7 +10,7 @@ html,body{
 }
 
 .row {
-    height: 450px;
+    height: 550px;
     width: 100%;
 }
 
@@ -344,8 +344,18 @@ button {
     color:#c09c78;
 }
 
-
+form{
+    display: flex;
+}
 
 .formwrapper{
     display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    margin: auto;
+}
+
+input {
+    padding: 3%;
+    margin: 3%;
 }
