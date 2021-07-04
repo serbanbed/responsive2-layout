@@ -345,17 +345,58 @@ button {
 }
 
 form{
-    display: flex;
+    width: 100%;
 }
 
 .formwrapper{
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
+    width: 66%;
     margin: auto;
 }
 
 input {
     padding: 3%;
     margin: 3%;
+    height: 30px;
+    background-color: #3d3d3d;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.textareawrapp {
+    width: 33%;
+    
+}
+
+.buttonwrapper{
+    /* margin: auto; */
+    padding: 5%;
+    position: relative;
+}
+
+
+.buttonwrapper button{
+    background-color:#c09c78 ;
+    font-size: 12px;
+}
+
+.buttonwrapper i{
+    margin-left: -4%;
+    font-size: 15px;
+    color: white;
+}
+
+textarea{
+    background-color: #3d3d3d;
+color: white;
+border: none;
+height: 85%;
+width: 80%;
+margin-top: 3%;
+}
+
+.textareawrapp::placeholder {
+    padding: 2px;
 }
