@@ -397,6 +397,220 @@ width: 80%;
 margin-top: 3%;
 }
 
-.textareawrapp::placeholder {
+/* .textareawrapp::placeholder {
     padding: 2px;
+} */
+
+
+@media (max-width: 600px) {
+
+    .container{
+        padding: 0;
+    }
+
+    .menu{
+        display: none;
+    }
+    
+    .mobilemenu {
+        display: flex;  
+    }
+
+    a {
+        
+        color: white;
+        font-size: 40px;
+        opacity: 0.6;
+    }
+    
+    .topleft{
+        width: 25%;
+        height: 50%;
+    }
+
+    h1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-weight: lighter;
+        font-size: 70px;
+        letter-spacing: 15px;
+        position: absolute;
+        margin: 45% 2% 20%;
+    }
+
+    .row.nr2 {
+        display: grid;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+    .left :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .left :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .middle{
+        width: 100%;
+    }
+
+    .middle :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .middle :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .right{
+        width: 100%;
+    }
+
+    .right :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .right :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .row.nr3 {
+        display: grid;
+    }
+
+    .paris{
+        width: 100%;
+    }
+
+    .paris :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .paris :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .chicago{
+        width: 100%;
+    }
+
+    .chicago :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .chicago :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .bucharest{
+        width: 100%;
+    }
+
+    .bucharest :first-child {
+        font-size: 17px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        width: 70%;
+        margin: 7% 10%;
+        text-transform: uppercase;
+    }
+
+    .bucharest :last-child{
+        transform: none;
+        margin: 8% 8% 7% 41%;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .firstbutton{
+        display: none;
+    }
+
+    .bottomtext{
+        padding: 5%;
+    }
+
+    .formwrapper{
+        display: grid;
+        float: left;
+        margin-left: 12%;
+    }
+
+    input {
+
+        width: 450px;
+        height: 20px;
+    }
+    
+    .textareawrapp{
+    height: 150%;
+    width: 130%;
+    margin-left: -9%;
+    }
+
+    .buttonwrapper{
+        float: right;
+        margin-top: 5%;
+    
+    }
+
+    .button {
+        width: 100px;
+        height: 30px;
+        font-size: 8px;
+    }
+
+    .buttonwrapper i {
+        margin-left: -30%;
+        font-size: 13px;
+    }
+
+    .row{
+        height: 600px;
+    }
+
 }
