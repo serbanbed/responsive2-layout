@@ -14,6 +14,7 @@ html,body{
     width: 100%;
 }
 
+/* vad ca sunt inca probleme la navigare? imaginile nu se incarca..sa imi zici te rog daca vrei sa mai reluam partea de navigare */
 .nr1{
     background-image: url(/assets/bg-header.jpg);
     background-position: center;
@@ -114,6 +115,7 @@ h1 {
     position: relative;
 }
 
+/* atentie la spatii aici inainte si dupa ":" */
 .left :first-child {
     position:absolute;
     width: 100px;
@@ -123,7 +125,7 @@ h1 {
     left:5%;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
+/* in cele ce urmeaza aici ai foarte mult cod repetitiv, acesta poate fi grupat,,daca vei avea nevoie sa modifici ceva va trebui sa o faci in foarte multe locuri */
 
 .left :last-child{
     color: white;
@@ -344,6 +346,7 @@ button {
     color:#c09c78;
 }
 
+/* pe desktop mai trebuie putin lucrat la form,,am atasat si recording */
 form{
     width: 100%;
 }
